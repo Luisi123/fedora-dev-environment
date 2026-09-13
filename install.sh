@@ -2,16 +2,16 @@
 
 set -euo pipefail
 
-echo"=============================="
-echo"Fedora Development ENvironment"
-echo"=============================="
+echo "=============================="
+echo "Fedora Development Environment"
+echo "=============================="
 
 echo 
-echo"Updating Fedora..."
+echo "Updating Fedora..."
 sudo dnf upgrade --refresh -y
 
 echo
-echo"Installing core development tools..."
+echo "Installing core development tools..."
 
 sudo dnf install -y \
 	zsh \
